@@ -1,0 +1,27 @@
+# Visual Studio temporary files
+.vs/
+**/.vs/
+*.user
+*.suo
+
+# C++ build outputs
+x64/
+x86/
+Debug/
+Release/
+**/Debug/
+**/Release/
+ipch/
+
+# Compiled files
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.tlog
+*.idb
+*.pch
+
+# Sensitive files
+.env
+*.env

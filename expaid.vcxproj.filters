@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\models">
+      <UniqueIdentifier>{a16db2cc-0d68-4a92-a818-05281fc0cf60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers">
+      <UniqueIdentifier>{48f06c90-9bb8-452f-85dc-04ae2f9de5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{f8814547-8a1e-4cb3-9637-77ee986b4be4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Supervisor.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="Feedback.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="History.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>Source Files\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SupervisorManager.cpp">
+      <Filter>Source Files\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectManager.cpp">
+      <Filter>Source Files\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>Source Files\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="FeedbackManager.cpp">
+      <Filter>Source Files\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryManager.cpp">
+      <Filter>Source Files\managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Supervisor.h">
+      <Filter>Source Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Source Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>Source Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Source Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Feedback.h">
+      <Filter>Source Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="History.h">
+      <Filter>Source Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>Source Files\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SupervisorManager.h">
+      <Filter>Source Files\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectManager.h">
+      <Filter>Source Files\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>Source Files\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="FeedbackManager.h">
+      <Filter>Source Files\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryManager.h">
+      <Filter>Source Files\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
